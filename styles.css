@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: rgba(34, 34, 34, 0);
+	font-family: 'Poppins', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #55d6ab00;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.header-img {
+    width: 100%;
+    height: 400px;
+    background: url('gridimage.png');
+    background-size: cover;
+  }
+  @import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,400italic,600");
+  }
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-image {
+    background-image: url("gridillustration.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: rgb(29, 29, 29);
+    animation-duration: 0.75s;
+    animation-name: animate-fade;
+    animation-timing-function: ease;
+    
+  }
+  @keyframes animate-fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: rgb(107, 107, 107);
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+  .greyrectangle {
+    background-color: rgb(52, 52, 52);
+    width: 100%;
+    height: 1519px;
+    padding: 50px;
+    margin: 0 auto;
+  }
+
+  .work1 {
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    height: 352px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url(work1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.work1:hover {
+
+  transform: scale(1.1);
+  transition-timing-function: ease;
+  transition: 0.25s, 0.25s;
+}
+  .work2 {
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    height: 352px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url(work22.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .work2:hover {
+
+    transform: scale(1.1);
+    transition-timing-function: ease;
+    transition: 0.25s, 0.25s;
+  }
+  
+  .work3 {
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    height: 352px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url(work3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .work3:hover {
+
+    transform: scale(1.1);
+    transition-timing-function: ease;
+    transition: 0.25s, 0.25s;
+  }
+
+  .process1 {
+    background-color: rgb(52, 52, 52);
+    width: 45%;
+    height: 311px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transform: scale(1.2);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .process1 {
+      transition: opacity 1.5s ease, transform 1.5s ease;
+    }
+  }
+  
+  .process1 {
+      opacity: 1;
+      transform: none;
+  }
+
+
+  .process2 {
+    background-color: rgb(52, 52, 52);
+    width: 45%;
+    height: 311px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .process3 {
+    background-color: rgb(52, 52, 52);
+    width: 45%;
+    height: 311px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .process4 {
+    background-color: rgb(52, 52, 52);
+    width: 45%;
+    height: 311px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .process5 {
+    background-color: rgb(52, 52, 52);
+    width: 45%;
+    height: 311px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .connect {
+
+    background-color: rgb(52, 52, 52);
+    width: 75%;
+    height: 414px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 34px;
+    margin: 0 auto;
+margin-top: 100px;
+  }
+  .foot {
+
+    background-color: rgb(52, 52, 52);
+    width: 100%;
+    height: 198px;
+    margin: 0 auto;
+    margin-top: 34px;
+  }
+  .illustration {
+    background-color: 
+  transparent;
+    height: 100%;
+    left: 1px;
+    position: absolute;
+    width: 100%;
+    margin: left;
+    float: left;
+  }
+
+  img{
+      float: left;
+      margin-top: 25px;
+  }
+  div .hero-text {
+      float: left;
+      padding: 0 20px 20px 0;
+  }
+
+  .illustration {
+    width: 100%;
+    height: 423px;
+    background: url('illustration.png');
+text
+  }
+
+  h2 {
+    padding-left: 132px;
+    padding-top: 96px;
+    color: white;
+  }
+
+  .processText {
+
+color: white;
+padding-left: 132px;
+padding-right: 132px;
+  }
+
+  .connectme {
+      color: rgb(239, 98, 64);
+      text-align: center;
+      padding-top: 40px;
+  }
+
+  .ready {
+      text-align: center;
+      padding-top: 25px;
+        color: white;
+        font-weight: 500;
+
+  }
+
+.connectbutton {
+    border: none;
+    outline: 0;
+    display: flex;
+    padding: 10px 25px;
+    color: black;
+    background-color: rgb(107, 107, 107);
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 475px;
+
+
+  }
+button:hover .connectbutton{
+    background-color: #555;
+    color: white;
+  }
+
+  .footercon{
+      background-image: url(footer.png);
+      background-size: 100%;
+      width: 100%;
+      height: min-content;
+  }
